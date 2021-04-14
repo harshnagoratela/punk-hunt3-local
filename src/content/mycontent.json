@@ -1,0 +1,152 @@
+{
+  "Title": "Punk Hunt | Find them all",
+  "Name": "Wanted",
+  "Description": [
+    "Have you seen these Punks?"
+
+
+  ],
+  "Punk2": "https://www.larvalabs.com/public/images/cryptopunks/punk2460.png",
+  "Punk1": "https://www.larvalabs.com/public/images/cryptopunks/punk1629.png",
+  "Punk3": "https://www.larvalabs.com/public/images/cryptopunks/punk8219.png",
+  "Punk4": "https://www.larvalabs.com/public/images/cryptopunks/punk8348.png",
+  "BackgroundURL": "",
+
+  "AboutImage": "https://cdn.decrypt.co/resize/1400/wp-content/uploads/2021/04/CryptoPunks-gID_2.png",
+  "AboutContent": [
+    "As part of the ‘Pixelated’ exhibition by SaveArtSpace, CryptoPunks will be displayed on 96 billboards and bus shelters across Miami. The exhibition will last for one month beginning April 12th.",
+    "Get a chance to win 0.5 ETH, while CryptoPunks are taking over billboards and bus shelters.",
+    "Rules are simple:",
+    "Find one of those four punks on billboards or bus stops across Miami:",
+    "#1629 @ClaireSilver12 | #8219 @gmoneyNFT | #8348 @seedphrase  | #2460 @niftynaut",
+
+"Take a selfie with the Punks.",
+"Share it on Twitter.",
+"Tag us with the hashtags #punkhunt and #cryptopunks.",
+"At the end of the exhibition, a lucky winner of our prize draw will be chosen at random.",
+"To receive and redeem the prize you need a ETH-wallet address.",
+"Learn more about CryptoPunks:"
+  ],
+
+  "OneContent": [
+    "As part of the ‘Pixelated’ exhibition by SaveArtSpace, CryptoPunks will be displayed on 96 billboards and bus shelters across Miami. The exhibition will last for one month.’c starting from April 12th.",
+    "Get a chance to win 0.5 ETH, while CryptoPunks  are taking over billboards and bus shelters.",
+    "Rules are simple:",
+
+    "Find one of those four punks on billboards or bus stops across Miami:",
+    " | #8219 @gmoneyNFT",
+"#8348 @seedphrase  | #2460 @niftynaut",
+
+"Take a selfie with the Punks.",
+"Share it on Twitter.",
+"Tag us with the hashtags #punkhunt and #cryptopunks."
+
+  ],
+  "TwoContent": [
+    "The second challege will be announced on April 13, 2021."
+
+  ],
+  "WorkImage": "",
+  "InternshipsStartLine": "Previously, I have interned with :",
+  "InternShips": [
+    {
+      "name": "LarvaLabs",
+      "link": "https://larvalabs.com/cryptopunks"
+    },
+    {
+      "name": "CryptoPunks at Christies",
+      "link": "https://www.christies.com/features/10-things-to-know-about-CryptoPunks-11569-1.aspx"
+    },
+    {
+      "name": "SaveArtSpace",
+      "link": "https://www.saveartspace.org/pixelated"
+    }
+  ],
+  "ProjectsStartLine": "Some of my other works can be found here :",
+  "Projects": [
+    {
+      "name": "EdMad  ↗",
+      "link": "https://edmad.co"
+    },
+    {
+      "name": "DelOr  ↗",
+      "link": "https://bitsdelor.wixsite.com/delor"
+    },
+    {
+      "name": "EisenList  ↗",
+      "link": "https://github.com/adityaketkar/eisenlist"
+    },
+    {
+      "name": "Alexa Music Companion  ↗",
+      "link": "https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7"
+    },
+    {
+      "name": "Gatsby Personal Webpage  ↗",
+      "link": "https://github.com/adityaketkar/circle-packing-personal-homepage"
+    }
+  ],
+  "showTalksAndBlogTab": true,
+  "TalksAndBlogsTopContent": "this here",
+  "TalkIntroLine": "",
+  "Talks": [
+    {
+      "talkTitle": "Front End Patterns for ⚡ Performance",
+      "talkMetadata": "@ Microsoft, March 2021",
+      "talkDescription": "A live and interactive deep dive into frontend-performance optimization with patterns like CSR, SPAs, SSR, SSG, ISG etc (👻). A comparative study of technologies behind Amazon, Gmail, Netflix along with some quick wins for perf improvements",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/13yhcpI_CwCU0np_tzTAUJGNci4hSGme3/view?usp=sharing",
+          "linkTitle": "Slides (pdf) ↗"
+        },
+        {
+          "url": "https://drive.google.com/file/d/19J08czyywp7JCioK8eDQ2Li83zW3bc3C/view?usp=sharing",
+          "linkTitle": "Slides with videos (pptx)  ↗"
+        }
+      ]
+    },
+    {
+      "talkTitle": "Resume Drafting 101",
+      "talkMetadata": "@ EdMad, July 2020",
+      "talkDescription": "Zero to hero in drafting and maintaining a killer resume, all in 30 mins. A talk for final and pre-final year students and people looking to up their resume game 💪",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/19vIO2utgN8zpioxbrRW8TtXIiHBBBTbk/view?usp=sharing",
+          "linkTitle": "Slides  ↗"
+        }
+      ]
+    }
+  ],
+  "BlogsIntroLine": "Here are some of my blog posts you might enjoy : ",
+  "Blogs": [
+    {
+      "blogTitle": "Hey Alexa, meet Music 🎵",
+      "link": "https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7"
+    },
+    {
+      "blogTitle": "7 actionable steps to ace your coding interview 👩‍💻",
+      "link": "https://www.linkedin.com/pulse/7-actionable-steps-ace-your-coding-interview-aditya-ketkar?trk=public_profile_article_view"
+    },
+    {
+      "blogTitle": "Tech Interview Prep Series 👨‍💼",
+      "link": "https://edmad.co/blog"
+    },
+    {
+      "blogTitle": "Jagriti Yatra Series 🚂 🌎",
+      "link": "https://ketkar.medium.com/jagrati-yatra-day-1-d30725cf8f71"
+    }
+  ],
+
+  "CVStartLine": "I am always open to collaborations with impactful work. Feel free to reach out if you want to work together 💪 ",
+  "CV": "https://www.visualcv.com/aditya-ketkar/",
+  "Resume": "https://drive.google.com/file/d/1zYV1lTNuGbMaB5-vnaGY5x-gnb9kAwWX/view?usp=sharing",
+
+  "emailid": "mailto:adityaketkar848@gmail.com",
+  "linkedin": "https://linkedin.com/in/adityaketkar",
+  "wordpress": "https://technoshblog.wordpress.com/",
+  "facebook": "https://www.facebook.com/aditya.ketkar.520",
+  "github": "https://github.com/adityaketkar",
+  "instagram": "http://www.adityaketkar.me",
+  "twitter": "https://twitter.com/adityaketkar",
+  "medium": "https://ketkar.medium.com/",
+  "linktree": "https://linktr.ee/ketkar"
+}

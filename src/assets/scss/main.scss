@@ -1,0 +1,64 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+@import '../css/font-awesome.min.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+div#main {
+	opacity: 0.7;
+}
+
+#main article {
+	background-color: #ff04b4 !important;
+	color: white;
+}
+
+#main article h2.major{border-bottom: solid 1px white;}
+
+#main article h2, #main article .close {color: white;}
+/*
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+	@include skel-breakpoints((
+		xlarge:		'(max-width: 1680px)',
+		large:		'(max-width: 1280px)',
+		medium:		'(max-width: 980px)',
+		small:		'(max-width: 736px)',
+		xsmall:		'(max-width: 480px)',
+		xxsmall:	'(max-width: 360px)'
+	));
+
+	@include skel-layout((
+		reset: 'full',
+		boxModel: 'border'
+	));
+
+// Base.
+
+
+	@import 'base/page';
+	@import 'base/typography';
+
+// Component.
+
+	@import 'components/form';
+	@import 'components/box';
+	@import 'components/icon';
+	@import 'components/image';
+	@import 'components/list';
+	@import 'components/table';
+	@import 'components/button';
+
+// Layout.
+
+	@import 'layout/bg';
+	@import 'layout/bgcanvas';
+	@import 'layout/wrapper';
+	@import 'layout/header';
+	@import 'layout/main';
+	@import 'layout/footer';
