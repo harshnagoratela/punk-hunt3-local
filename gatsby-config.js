@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: 'PunkHunt | Find them All',
@@ -21,5 +23,22 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-source-twitter`,
+      options: {
+        credentials: {
+          bearer_token: process.env.TWITTER_BEARER_TOKEN,
+        },
+        queries: {
+          recentpunkhunts: {
+            endpoint: "search/tweets",
+            params: {
+              q: "#punkhunt",
+              tweet_mode: "extended",
+            },
+          },
+        },
+      },
+    },
   ],
 }
