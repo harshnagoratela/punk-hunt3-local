@@ -35,6 +35,7 @@ module.exports = {
             endpoint: "search/tweets",
             params: {
               q: "#punkhunt",
+              count: 100,
               tweet_mode: "extended",
             },
           },
