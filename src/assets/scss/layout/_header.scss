@@ -6,6 +6,20 @@
 
 /* Header */
 
+.billboard{
+  background-image: url('https://github.com/ecomloop/punk-hunt3/blob/master/images/punkhunt_cryptopunks_miami_billboard.png?raw=true');
+  background-size: contain;
+  height: 250px;
+  background-repeat: no-repeat;
+  padding-top: 15%;
+
+}
+
+
+.copyright {
+  font-size: 0.4em !important;
+
+}
 #header {
   @include vendor('display', 'flex');
   @include vendor('flex-direction', 'column');

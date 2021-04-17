@@ -99,7 +99,7 @@ class IndexPage extends React.Component {
   render() {
     let imageOrCanvas = (
       <div id="bgcanvas">
-        
+
       </div>
     )
 
@@ -136,18 +136,19 @@ class IndexPage extends React.Component {
               onCloseArticle={this.handleCloseArticle}
               setWrapperRef={this.setWrapperRef}
             />
+
           </div>
 
           {imageOrCanvas}
           <div
             style={{
-              position: 'absolute',
+              position: '',
               width: '100%',
               alignItems: 'center',
               bottom: '10px',
             }}
           >
-            <Footer timeout={this.state.timeout} />
+          
           </div>
         </div>
       </Layout>

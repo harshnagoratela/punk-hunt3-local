@@ -17,6 +17,7 @@ module.exports = {
         short_name: 'punkhunt',
         start_url: '/',
         background_color: '#fff',
+        
         theme_color: '#ff04b4',
         display: 'minimal-ui',
         icon: 'src/images/rocket.png', // This path is relative to the root of the site.

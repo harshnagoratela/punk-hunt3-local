@@ -7,6 +7,7 @@ const Header = props => (
 
     <div className="content backdrop-blur">
       <div className="inner backdrop-blur">
+      <div className="billboard">
         <h2
           style={{
             fontFamily: 'Montserrat, sans-serif',
@@ -19,35 +20,43 @@ const Header = props => (
             transform: 'rotate(-5deg)',
             'font-size': '1.6em',
             padding: '0.4em',
+
           }}
         >
           {JSONData.Name}
         </h2>
+        </div>
+        <h3
+        style={{
+          fontFamily: 'Montserrat, sans-serif',
+          fontWeight: '600',
+          color: '#ff04b4',
 
-        <p>
+          width: 'fit-content',
+          margin: '1em auto',
+
+          'font-size': '1em',
+          padding: '0.4em',
+        }} >HAVE YOU SEEN THESE PUNKS?</h3>
+
+
           {JSONData.Description.map(item => {
             return (
               <div
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: '600',
-                  color: '#ff04b4',
+                  fontFamily: 'Fira Mono, monospace',
+                  fontWeight: '100',
+                  fontSize: 'small',
+                  letterSpacing: '1px',
+                  'margin-bottom': '1em',
 
-                  width: 'fit-content',
-                  margin: '1em auto',
-
-                  'font-size': '1.2em',
-                  padding: '0.4em',
-                  'text-transform': 'uppercase',
                 }}
               >
-                {item}
+                Find them for a chance to win 0.5 ETH
               </div>
-
-
             )
           })}
-        </p>
+
         <div className="flexbox">
           <div className="punkDetails">
         <div className="logo backdrop-blur">
@@ -112,6 +121,7 @@ const Header = props => (
         </p>
         </div>
 </div>
+
 <div className="flexbox">
         <div className="punkDetails">
         <div className="logo backdrop-blur">
@@ -186,32 +196,8 @@ const Header = props => (
         backgroundColor: 'rgba(255, 255, 255, 0.9)',
       }}
     >
-    <h1
-      style={{
-        fontFamily: 'Montserrat, sans-serif',
-        fontWeight: '600',
-        color: '#ff04b4',
-        fontSize: '1.8em',
-      }}
-    >
-      Punk Hunt
-    </h1>
-    <p>
-      {JSONData.Description.map(item => {
-        return (
-          <div
-            style={{
-              fontFamily: 'Fira Mono, monospace',
-              fontWeight: '100',
-              fontSize: 'small',
-              letterSpacing: '1px',
-            }}
-          >
-            <p>Find them and win 0.5 ETH</p>
-          </div>
-        )
-      })}
-    </p>
+
+
 
       <ul>
         <li>
@@ -222,6 +208,8 @@ const Header = props => (
             style={{
               fontFamily: 'Fira Mono, monospace',
               fontWeight: '200',
+              background: '#ff04b4',
+              color: 'white',
             }}
           >
 
@@ -232,6 +220,26 @@ const Header = props => (
 
         </ul>
 
+        <div
+                style={{
+                  fontFamily: 'Fira Mono, monospace',
+                  fontWeight: '100',
+                  fontSize: 'small',
+                  letterSpacing: '1px',
+                  margin: '1em 0',
+                }}
+              ><br/>
+                <p>See recent <a href="/tweets">#PunkHunt tweets</a></p>
+
+              </div>
+        <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
+
+        <p className="copyright">
+        🛠️ <a href="https://twitter.com/RantumBits" target="_blank">RantumBits</a> <a href="https://ecomloop.com" target="_blank"><img src="https://logo.clearbit.com/ecomloop.com" height="14px"/> ecomloop</a>
+        <br/>
+        Not affiliated with LarvaLabs
+        </p>
+        </footer>
         <div>
 
               <div

@@ -10,7 +10,59 @@ const TweetPage = ({ data, location }) => {
   return (
     <Layout location={location}>
 
-      <h1>Recent Tweets</h1>
+    <h1
+      style={{
+        fontFamily: 'Montserrat, sans-serif',
+        fontWeight: '600',
+        color: '#ff04b4',
+        fontSize: '1.8em',
+      }}
+    >
+      #PunkHunt Twitter Posts
+    </h1>
+    <div
+          style={{
+            fontFamily: 'Fira Mono, monospace',
+            fontWeight: '100',
+            fontSize: 'small',
+            letterSpacing: '1px',
+            textAlign: 'center',
+          }}
+        >
+          <p>See recent #PunkHunt posts featuring CryptoPunks on billboards</p>
+          <p>Enter to win 0.5 ETH by sharing <a href="https://twitter.com/hashtag/PunkHunt?src=hashtag_click" target="_blank">PunkHunt selfies on twitter</a></p>
+        </div>
+        <ul>
+  <a href="/">
+            <button
+
+              style={{
+                fontFamily: 'Fira Mono, monospace',
+                fontWeight: '200',
+              }}
+            >
+
+
+
+              PunkHunt Details
+            </button>
+
+
+</a>
+</ul>
+<div class= "loading"
+style={{
+  fontFamily: 'Fira Mono, monospace',
+  fontWeight: '100',
+  fontSize: 'small',
+  letterSpacing: '1px',
+  textAlign: 'center',
+  height: '50px', 
+}}>
+
+          <img src="https://media0.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"/>
+
+          </div>
       {allTweets.map(({ node }) => {
         return (
           <TwitterTweetEmbed tweetId={node.id_str} />
